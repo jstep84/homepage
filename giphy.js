@@ -1,5 +1,7 @@
+
 document.addEventListener('DOMContentLoaded', function () {
-	q = "finger guns"; // search query
+	var q = "random"; // search query
+
 	
 	request = new XMLHttpRequest;
 	request.open('GET', 'http://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag='+q, true);
@@ -17,6 +19,6 @@ document.addEventListener('DOMContentLoaded', function () {
 	request.onerror = function() {
 		console.log('connection error');
 	};
-
 	request.send();
+
 });
