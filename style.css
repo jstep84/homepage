@@ -11,9 +11,17 @@ body {
 
 ul {
 	list-style: none;
+	background-color: grey;
+	color: white;
 }
 
 li {
 	margin: 2em;
 	font-size: 2em;
+	display: inline;
+}
+
+#title {
+	font-family: Lobster;
+	font-size: 5em;
 }
