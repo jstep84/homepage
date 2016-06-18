@@ -15,7 +15,7 @@ ul {
 	list-style: none;
 }
 
-li {
+.menuItems {
 	margin: 1em;
 	display: inline;
 }
@@ -29,3 +29,25 @@ li {
 p {
 	color: white !important;
 } 
+
+#main {
+	margin-top: 3.5em;
+}
+
+#homepic {
+	border: 1em solid white;
+	border-radius: 100%;
+}
+
+#whitebox {
+	background-color: white;
+	border-radius: 1em;
+}
+
+.todos {
+	color: red;
+}
+
+#giphyme {
+	margin-top: 3em;
+}
