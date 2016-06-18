@@ -1,27 +1,32 @@
 body {
 	text-align: center;
 	font-family: helvetica;
+	color: white;
+	background-color: #5D758F !important;
 }
 
 .menu {
 	background-color: grey;
 	color: white;
-	border: 5px solid black;
+	border: 8px solid white;
 }
 
 ul {
 	list-style: none;
-	background-color: grey;
-	color: white;
 }
 
 li {
-	margin: 2em;
-	font-size: 2em;
+	margin: 1em;
 	display: inline;
+	text-decoration: underline;
 }
 
-#title {
+#marquee {
 	font-family: Lobster;
+	background-image: url('heatherGry.jpg');
 	font-size: 5em;
 }
+
+p {
+	color: white;
+} 
