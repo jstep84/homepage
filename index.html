@@ -3,6 +3,7 @@
 <head>
 	<title>homepage</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="weather.css">
 	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 </head>
@@ -13,30 +14,22 @@
 		<div class="col-md-4">
 			<p class="p"><a href="index.html" id="home">HomePage</a></p>
 		</div>
-		<div class="col-md-8">
-			<ul>
-				<li class="menuItems"><a href="news.html">news</a></li>
-				<li class="menuItems"><a href="lists.html">lists</a></li>
-				<li class="menuItems"><a href="gifs.html">gifs</a></li>
-			</ul>
-		</div>
+		<div class="col-md-8"><h1 id="day"></h1></div>
 	</div>
 
-	<div class="row" id="main">
-		<div class="col-md-1">
-			<!-- <h1 id="day"></h1> -->
+	<div class="row">
+		<div class="col-md-6" id="weather">
+			<div id="weather"></div>
 		</div>
-		<div class="col-md-4">
-			<img class="img-responsive" id="homepic" src="homepage.jpg">
-		</div>
-		<div class="col-md-7">
-			<h1 id="day"></h1>	
+		<div class="col-md-6">	
+			<img class="img-responsive" id="homepic" src="homepage.jpg">	
 		</div>
 	</div>
 
 	
 </div>
-<script   src="https://code.jquery.com/jquery-3.0.0.js"   integrity="sha256-jrPLZ+8vDxt2FnE1zvZXCkCcebI/C8Dt5xyaQBjxQIo="   crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.0.0.js" integrity="sha256-jrPLZ+8vDxt2FnE1zvZXCkCcebI/C8Dt5xyaQBjxQIo=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/3.1.0/jquery.simpleWeather.min.js"></script>
 <script type="text/javascript" src="giphy.js"></script>
 <script type="text/javascript" src="script.js"></script>
 </body>

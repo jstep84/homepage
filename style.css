@@ -2,16 +2,8 @@ body {
 	text-align: center;
 	font-family: helvetica;
 	color: white;
-	background-color: #5D758F !important;
-}
-
-ul {
-	list-style: none;
-}
-
-.menuItems {
-	margin: 1em;
-	display: inline;
+	background: url('seapic.jpg');
+	background-size: cover;
 }
 
 #marquee {
@@ -20,27 +12,10 @@ ul {
 	font-size: 3em;
 }
 
-p {
-	color: white !important;
-} 
-
-#main {
-	margin-top: 3.5em;
-}
-
 #homepic {
 	border: 1em solid white;
 	border-radius: 100%;
 	height: 25em;
-}
-
-#whitebox {
-	background-color: white;
-	border-radius: 1em;
-}
-
-.todos {
-	color: red;
 }
 
 #giphyme {
@@ -51,4 +26,27 @@ p {
 	color: white;
 	font-size: 1.5em;
 }
+
+#weather {
+	background-color: rgba(0, 0, 0, 0.2);
+	padding: 1.5em;
+	margin: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
