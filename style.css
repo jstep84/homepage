@@ -1,0 +1,19 @@
+body {
+	text-align: center;
+	font-family: helvetica;
+}
+
+.menu {
+	background-color: grey;
+	color: white;
+	border: 5px solid black;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	margin: 2em;
+	font-size: 2em;
+}
