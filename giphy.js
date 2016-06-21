@@ -1,6 +1,6 @@
 
 document.addEventListener('DOMContentLoaded', function () {
-	var q = "random"; // search query
+	var q = "ice cream"; // search query
 
 	
 	request = new XMLHttpRequest;

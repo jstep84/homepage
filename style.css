@@ -2,11 +2,10 @@ body {
 	text-align: center;
 	font-family: helvetica;
 	color: white;
-	background: url('seapic.jpg');
-	background-size: cover;
+	background-color: #5D758F !important;
 }
 
-#marquee {
+#header {
 	font-family: Lobster;
 	background-image: url('heatherGry.jpg');
 	font-size: 3em;
@@ -28,12 +27,15 @@ body {
 }
 
 #weather {
-	background-color: rgba(0, 0, 0, 0.2);
+	background-color: rgb(0, 0, 0, .5);
+	background-size: cover;
 	padding: 1.5em;
 	margin: 1em;
 }
 
-
+#row1 {
+	margin-top: 2em;
+}
 
 
 
