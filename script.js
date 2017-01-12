@@ -1,5 +1,3 @@
-console.log('script speaks');
-
 function greeting() {
     var d = new Date();
     var weekday = new Array(7);
